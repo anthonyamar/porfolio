@@ -1,0 +1,13 @@
+.carousel-indicators {
+  bottom: -50px;  
+}
+
+.carousel-indicators li {
+  background-color: #2c3640;
+  opacity: .5;
+}
+
+.carousel-indicators li.active {
+  background-color: #2c3640;
+  opacity: 1 !important;
+}

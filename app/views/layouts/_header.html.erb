@@ -1,9 +1,49 @@
-<!-- Just an image -->
-<nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="/">
-    <i class="fas fa-gem text-danger"></i> Contentful on Rails 
-  </a>
-  <a href="https://github.com/anthonyamar/contentful-on-rails" class="btn btn-outline-dark">
-    Read documentation and contribute on <i class="fab fa-github fa-lg"></i>
-  </a>
-</nav>
+<header class="header" data-scroll-index="0">
+
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-lg border-none bg-transparent">
+    <div class="container sm-padding-10px-tb sm-padding-15px-lr">
+
+      <!-- start logo -->
+      <a class="logo" href="javascript:void(0);" data-scroll-nav="0">
+        <img src="<%= image_url "logo-white.png" %>" alt="Ashton - One Page Portfolio" title="Ashton - One Page Portfolio">
+      </a>
+      <!-- end Logo -->
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon-bar"><i class="fas fa-bars"></i></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="javascript:void(0);">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- end navbar links -->
+
+    </div>
+
+    <a href="javascript:void(0)" class="sidemenu_btn sm-display-none" id="sidebar_toggle">
+      <span></span> <span></span> <span></span>
+    </a>
+  </nav>
+</header>
+<!-- End Header -->

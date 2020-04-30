@@ -5,3 +5,10 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/regular";
 @import "~@fortawesome/fontawesome-free/scss/brands";
+
+@import "theme/plugins/animate";
+@import "theme/plugins/helper";
+@import "theme/plugins/magnific-popup";
+@import "theme/plugins/mailform";
+@import "theme/style";
+@import "landing";
