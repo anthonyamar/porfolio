@@ -215,61 +215,40 @@
       </div>
     </div>
     <div class="row">
-
-      <!-- start blog -->
-      <div class="col-lg-4 sm-margin-20px-bottom">
-        <div class="item text-center rounded">
-          <div class="post-img">
-            <img src="img/blog/1.jpg" alt="">
-          </div>
-          <div class="content">
-            <div class="tag alt-font font-weight-300">
-              <a href="blog.html">Designing | <span class="font-size12 display-inline-block">02 May 2018</span></a>
+      <% @courses.each do |course| %>
+        <div class="col-lg-6 my-4 sm-margin-20px-bottom course-card">
+          <div class="item text-center">
+            <div class="post-img">
+              <%= image_tag(course.image.image_url) %>
             </div>
-            <h5 class="margin-15px-bottom"><a href="single-post.html">Designing work with us</a></h5>
-            <p>Dolorem ipsum quia dolor consectetur, amet adipisci velit, sed quia non eius numquam modi tempora.</p>
-            <a href="single-post.html" class="read-more">Read more</a>
+            <div class="content">
+              <h3 class="margin-15px-bottom">
+                <a href="single-post.html"><%= course.title %></a>
+              </h3>
+              <div class="tag alt-font font-weight-300">
+                <a href="blog.html">
+                 
+                  <%= course.topics.to_sentence %>  
+                  <span class="font-size12">
+                    <%= course.publics.to_sentence %>
+                  </span>
+                </a>
+              </div>
+              <div class="tag alt-font font-weight-300">
+                <a href="blog.html">
+                  <%= course.type %> de
+                  <span class="font-size12">
+                    <%= course.duration %> heure(s) <%= course.type_availability.downcase %>
+                  </span>
+                </a>
+              </div>
+              <p><%= course.description %></p>
+              <a href="single-post.html" class="read-more">Read more</a>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- end blog -->
 
-      <!-- start blog -->
-      <div class="col-lg-4 sm-margin-20px-bottom">
-        <div class="item text-center rounded">
-          <div class="post-img">
-            <img src="img/blog/2.jpg" alt="">
-          </div>
-          <div class="content">
-            <div class="tag alt-font font-weight-300">
-              <a href="blog.html">Positive | <span class="font-size12 display-inline-block">11 April 2018</span></a>
-            </div>
-            <h5 class="margin-15px-bottom"><a href="single-post.html">Always think be positive</a></h5>
-            <p>Consectetur dolorem ipsum quia dolor sit amet, adipisci velit, sed quia non numquam eius modi tempora.</p>
-            <a href="single-post.html" class="read-more">Read more</a>
-          </div>
-        </div>
-      </div>
-      <!-- end blog -->
-
-      <!-- start blog -->
-      <div class="col-lg-4">
-        <div class="item text-center rounded">
-          <div class="post-img">
-            <img src="img/blog/3.jpg" alt="">
-          </div>
-          <div class="content">
-            <div class="tag alt-font font-weight-300">
-              <a href="blog.html">Meeting | <span class="font-size12 display-inline-block">04 March 2018</span></a>
-            </div>
-            <h5 class="margin-15px-bottom"><a href="single-post.html">Meeting with our clients</a></h5>
-            <p>Numquam dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi.</p>
-            <a href="single-post.html" class="read-more">Read more</a>
-          </div>
-        </div>
-      </div>
-      <!-- end blog -->
-
+      <% end %>
     </div>
   </div>
 </section>
