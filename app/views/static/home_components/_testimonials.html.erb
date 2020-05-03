@@ -1,0 +1,45 @@
+<!-- Start Testimonials Section -->
+<section class="center-col testimonials text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center">
+        <h3 class="font-weight-700 font-size32 md-font-size27 sm-font-size24 xs-font-size20 section-title">
+          <%= t("testimonials.heading") %>
+        </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <% I18n.t("testimonials.texts").each_with_index do |text, i| %>
+              <li data-target="#carouselExampleIndicators" data-slide-to="<%= i %>" class="<%= 'active' if i == 0 %>"></li>
+            <% end %>
+          </ol>
+          <div class="carousel-inner">
+            <% I18n.t("testimonials.texts").each_with_index do |text, i| %>
+              <div class="carousel-item <%= 'active' if i == 0 %>">
+                <div>
+                  <i class="fas fa-quote-left font-size22 margin-40px-bottom sm-margin-30px-bottom xs-margin-20px-bottom theme-black-color"></i>
+                  <p class="width-75 sm-width-85 xs-width-90 center-col padding-40px-bottom sm-padding-30px-bottom xs-padding-20px-bottom font-size16 xs-font-size14">
+                    <%= text %>
+                  </p>
+                </div>
+              </div>
+            <% end %>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"><%= t("testimonials.previous") %></span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"><%= t("testimonials.next") %></span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Testimonials Section -->

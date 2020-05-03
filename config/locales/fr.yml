@@ -1,6 +1,6 @@
-en:
+fr:
   header:
-    home: "Home"
+    home: "Maison"
     about: "About"
     experience: "Experience"
     topics: "Topics"
@@ -8,9 +8,9 @@ en:
     testimonials: "Testimonial"
     contact: "Contact"
   hero:
-    hello: "Hello, I am"
+    hello: "Bonjour, I am"
     heading: "Anthony Amar."
-    sub_heading: "Your new speaker & teacher"
+    sub_heading: "Votre nouveau prof"
     cta: "Contact me"
   about:
     heading: "Bring back curiosity and creativity in education."

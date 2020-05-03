@@ -1,0 +1,36 @@
+<!-- Start Banner Container -->
+<div class="padding-100px-top" style="background-color: #2c3640">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12 order-2 order-md-1 xs-padding-50px-tb">
+        <!-- Start Left Content -->
+        <div class="padding-twenty-top sm-padding-fifteen-top xs-no-padding">
+          <h5 class="text-light-gray no-margin font-size18 xs-font-size16 text-medium-gray padding-twelve-top sm-padding-five-top xs-no-padding">
+            <%= t("hero.hello") %>
+          </h5>
+          <h1 class="text-white text-uppercase font-size48 md-font-size42 sm-font-size36 xs-font-size26 font-weight-700 margin-20px-bottom">
+            <%= t("hero.heading") %>
+          </h1>
+          <p class="text-light-gray width-50 md-width-75 xs-width-100 font-size16 xs-font-size14 border-top border-bottom padding-10px-tb">
+            <%= t("hero.sub_heading") %>
+          </p>
+          <div class="social-links margin-30px-bottom xs-margin-20px-bottom">
+            <a href="javascript:void(0);"><i class="fab fa-linkedin-in text-light-gray"></i></a>
+            <a href="javascript:void(0);"><i class="fab fa-github text-light-gray"></i></a>
+          </div>
+          <a class="btn white" href="#portfolio">
+            <%= t("hero.cta") %>
+            <i class="fas fa-arrow-right font-size15 margin-5px-left"></i>
+          </a>
+        </div>
+        <!-- End Left Content -->
+      </div>
+      <div class="col-md-5 col-sm-12 order-1 order-md-2 text-right xs-text-center xs-border-bottom xs-padding-nineteen-half-lr border-color-medium-gray">
+        <!-- Start Right Image -->
+        <img src="<%= image_url "anthony.jpg" %>" alt="" style="border-top-left-radius: 15px;border-top-right-radius: 15px;">
+        <!-- End Right Image -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Banner Container -->

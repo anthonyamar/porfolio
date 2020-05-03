@@ -35,6 +35,16 @@
           <li class="nav-item">
             <a class="nav-link" href="javascript:void(0);">Contact</a>
           </li>
+          <li class="nav-item">
+            <%= link_to root_path(locale: :fr), class: "nav-link" do %>
+              <img src="<%= image_url "flags/fr.png" %>" alt="" width="20">
+            <% end %>
+          </li>
+          <li class="nav-item">
+            <%= link_to root_path(locale: :en), class: "nav-link" do %>
+              <img src="<%= image_url "flags/uk.png" %>" alt="" width="20">
+            <% end %>
+          </li>
         </ul>
       </div>
       <!-- end navbar links -->
