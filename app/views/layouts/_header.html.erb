@@ -18,22 +18,34 @@
       <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="javascript:void(0);">Home</a>
+            <a class="nav-link" href="#about">
+              <%= t("header.about") %>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0);">About</a>
+            <a class="nav-link" href="#experience">
+              <%= t("header.experience") %>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0);">Experience</a>
+            <a class="nav-link" href="#topics">
+              <%= t("header.topics") %>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0);">Services</a>
+            <a class="nav-link" href="#courses">
+              <%= t("header.courses") %>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0);">Blog</a>
+            <a class="nav-link" href="#testimonials">
+              <%= t("header.testimonials") %>
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0);">Contact</a>
+            <a class="nav-link" href="#contact">
+              <%= t("header.contact") %>
+            </a>
           </li>
           <li class="nav-item">
             <%= link_to root_path(locale: :fr), class: "nav-link" do %>

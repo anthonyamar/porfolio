@@ -1,26 +1,25 @@
 fr:
   header:
-    home: "Maison"
-    about: "About"
-    experience: "Experience"
-    topics: "Topics"
-    courses: "Courses"
-    testimonials: "Testimonial"
+    about: "À propos"
+    experience: "Expérience"
+    topics: "Sujets"
+    courses: "Cours & conférences"
+    testimonials: "Témoignages"
     contact: "Contact"
   hero:
-    hello: "Bonjour, I am"
+    hello: "Bonjour, je suis"
     heading: "Anthony Amar."
-    sub_heading: "Votre nouveau prof"
-    cta: "Contact me"
+    sub_heading: "Votre nouveau professeur & conférencier."
+    cta: "Contactez-moi"
   about:
-    heading: "Bring back curiosity and creativity in education."
+    heading: "Ramener la curiosité et la créativité dans l'éducation."
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos quae velit voluptates? Maiores voluptas provident unde. Corporis aspernatur soluta, magni ex, iste nam quos ipsum blanditiis adipisci praesentium omnis."
-    cta: "Download my C.V."
   resume:
-    heading_html: "Atypical course.<br>+6years of teaching experience."
+    heading_html: "Parcours atypique.<br>+6 ans d'expérience d'enseignement."
+    cta: "Voir mon C.V. complet."
     n_years:
-      one: "1 year"
-      other: "%{count} years"
+      one: "1 an"
+      other: "%{count} ans"
     timeframes:
       -
         spent_years: 1
@@ -43,37 +42,37 @@ fr:
         heading: "Visual Art & Design"
         body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos quae velit voluptates? Maiores voluptas provident unde. Corporis aspernatur soluta, magni ex, iste nam quos ipsum blanditiis adipisci praesentium omnis."
   topics:
-    heading: "The most important topics for your students."
+    heading: "Les sujets les plus importants pour vos élèves."
     top_left:
-      heading: "Web Development"
+      heading: "Développement web"
       body: "This creative template design provide ideal and variety of design services and solutions for website."
     top_right:
-      heading: "Entrepreneurship"
+      heading: "Entrepreneunariat"
       body: "This creative template design provide ideal and variety of design services and solutions for website."
     bottom_left:
       heading: "Marketing"
       body: "This creative template design provide ideal and variety of design services and solutions for website."
     bottom_right:
-      heading: "Artificial Intelligence"
+      heading: "Intelligence Artificielle"
       body: "This creative template design provide ideal and variety of design services and solutions for website."
   courses:
-    heading: "Hire me for one of this course."
+    heading: "Mes cours et conférences phares."
     n_hours:
-      one: "1 hour"
-      other: "%{count} hours"
+      one: "1 heure"
+      other: "%{count} heures"
   testimonials:
-    heading: "From my students mouth."
-    anonymous: "Theses testimonials are from anonymous studies made about my students about how they appreciate my courses."
-    cta: "Whatch the whole etude here."
+    heading: "De la bouche de mes étudiants."
+    anonymous: "Ces témoignages proviennent d'une études anonyme faite auprès de mes étudiants en fin d'année sur la façon dont ils apprécient mes cours."
+    cta: "Voir les résultats complets de l'étude."
     texts:
-      - "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,deserunt mollit anim id est laborum."
-      - "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,deserunt mollit anim id est laborum."
-      - "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,deserunt mollit anim id est laborum."
-    previous: "Previous"
-    next: "Next"
+      - "Le ton a été donné dès le premier cours : apprendre tout en concrétisant un projet. J'ai adoré ce mode de fonctionnement qui ne nous incite pas forcément à avoir une note, mais surtout à avoir des projets. Merci à toi pour tes good vibes ! :)"
+      - "Prof au top, qui parle le même langage que nous. Pédagogie adaptée compte tenu de la complexité de la matière (pour ceux n'ayant jamais touché au code). Anthony est de plus très réactif lorsque nous avons des questions et nous met à disposition tous les outils nécessaires pour favoriser le dialogue au sein de la classe. Très bonne expérience du Management de projet avec lui comme enseignant."
+      - "Le cours de management de projet est un cours vivant dans lequel on peut créer, découvrir et apprendre. C’est donc un cours très enrichissant. Merci à Anthony pour les cours 👏🏼👌🏼"
+    previous: "Précédent"
+    next: "Suivant"
   contact:
-    heading: "Contact"
-    cta: "Contact me"
-    phone: "Phone"
-    address: "Address"
+    heading: "Travaillons ensemble."
+    cta: "Contactez moi"
+    phone: "Téléphone"
+    address: "Adresse"
     email: "Email"

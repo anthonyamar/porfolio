@@ -1,5 +1,6 @@
 .carousel-indicators {
-  bottom: -50px;  
+  bottom: -50px;
+  margin-bottom: 50px;
 }
 
 .carousel-indicators li {
@@ -13,30 +14,57 @@
 }
 
 .course-card {
-  
+
   .item {
     border-radius: 15px;
   }
-  
+
   .post-img {
     border-radius: 15px 15px 0 0;
   }
-  
+
   @media screen and (min-width: 960px) {
+    // DESKTOP
     img {
       height: 360px;
     }
   }
-  
+
   @media screen and (max-width: 960px) {
+    // MOBILE
     img {
       height: 280px;
     }
   }
-  
+
   h3 {
     font-size: 1.5rem;
-    line-height: 34px;
-    
+    line-height: 34px; 
+  }
+}
+
+.testimonials {
+  
+  @media screen and (min-width: 960px) {
+    // DESKTOP
+    .report {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    // MOBILE
+    .report {
+      width: 100%;
+    }
+  }
+}
+
+.contact {
+
+  .btn-lg {
+    font-size: 24px;
+    padding: 17px 36px;
+    border-radius: 60px;
   }
 }
