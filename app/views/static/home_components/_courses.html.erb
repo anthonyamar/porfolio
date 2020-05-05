@@ -21,7 +21,7 @@
               <%= course.title %>
             </h3>
             <div class="tag alt-font font-weight-300">
-              <%= t("courses.type", type: course.type) %> de
+              <%= t("courses.course", type: course.type) %>
               <span class="font-size12">
                 <%= t("courses.n_hours", count: course.duration) %> <%= course.type_availability.downcase %><br>
                 <%= t("courses.n_publics", count: course.publics.size) %> : <%= course.publics.to_sentence %>

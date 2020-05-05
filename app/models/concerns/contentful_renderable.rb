@@ -10,7 +10,7 @@ module ContentfulRenderable
   # Override this method to change the parameters set for your Contentful query on each specific model
   # For more information on queries you can look into: https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters
   def render
-    self.class.client.entries(content_type: self.class::CONTENT_TYPE, include: 2, "sys.id" => contentful_id).first
+    self.class.client.entries(content_type: self.class::CONTENT_TYPE, include: 2, "sys.id" => contentful_id, locale: I18n.locale).first
   end
 
   module ClassMethods
@@ -29,7 +29,7 @@ module ContentfulRenderable
     # Override this method to change the parameters set for your Contentful query on each specific model
     # For more information on queries you can look into: https://www.contentful.com/developers/docs/references/content-delivery-api/#/reference/search-parameters
     def render_all(limit: 1000)
-      client.entries(content_type: self::CONTENT_TYPE, include: 2, limit: limit)
+      client.entries(content_type: self::CONTENT_TYPE, include: 2, limit: limit, locale: I18n.locale)
     end
     
   end

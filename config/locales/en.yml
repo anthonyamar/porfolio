@@ -1,79 +1,112 @@
 en:
   header:
-    home: "Home"
     about: "About"
-    experience: "Experience"
+    experience: "Experiences"
     topics: "Topics"
-    courses: "Courses"
-    testimonials: "Testimonial"
+    courses: "Courses & conferences"
+    testimonials: "Testimonials"
     contact: "Contact"
   hero:
     hello: "Hello, I am"
     heading: "Anthony Amar."
-    sub_heading: "Your new speaker & teacher"
-    cta: "Contact me"
+    sub_heading: "Your new teacher & speaker."
+    cta: "Let's work together"
   about:
-    heading: "Bring back curiosity and creativity in education."
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos quae velit voluptates? Maiores voluptas provident unde. Corporis aspernatur soluta, magni ex, iste nam quos ipsum blanditiis adipisci praesentium omnis."
-    cta: "Download my C.V."
+    heading: "Bring curiosity and creativity back into education."
+    body: "In today's world, skills alone are no longer enough. I strive to transmit a foolproof state of mind allowing my students to rediscover the taste for curiosity and creativity. Obtaining a real capacity for adaptation and emancipation is, in my opinion, the key to a successful professional life."
   resume:
-    heading_html: "Atypical course.<br>+6years of teaching experience."
+    heading_html: "Atypical path.<br>+%{years} years of teaching experience."
+    cta: "Let's work together"
+    principal: "Core business"
+    still_in_office: "Still on the job"
+    clients_heading: "They welcomed me for a conference."
     n_years:
       one: "1 year"
       other: "%{count} years"
     timeframes:
       -
-        spent_years: 1
-        year: 2013
-        heading: "Visual Art & Design"
-        body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos quae velit voluptates? Maiores voluptas provident unde. Corporis aspernatur soluta, magni ex, iste nam quos ipsum blanditiis adipisci praesentium omnis."
+        principal: true
+        still_in_office: true
+        spent_years: 4
+        year: 2016
+        heading: "Co-founder & CEO @ Studiomatic"
+        body: "With Studiomatic, we are creating the music studios of the future. Self-service rehearsal studio, bookable and accessible 24/7 using your smartphone. We work with the leaders of rehearsal in France while developing our own network of independent studios. I studied web development, internet of things, data science and artificial intelligence in order to develop the technology behind Studiomatic myself."
       -
+        principal: false
+        still_in_office: true
         spent_years: 1
-        year: 2013
-        heading: "Visual Art & Design"
-        body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos quae velit voluptates? Maiores voluptas provident unde. Corporis aspernatur soluta, magni ex, iste nam quos ipsum blanditiis adipisci praesentium omnis."
+        year: 2020
+        heading: "Professor @ Supdeweb"
+        body: "M2 E-Commerce courses: Overview of programming languages. Aimed at non-tech, this course allows digital players to better understand how the web works, what programming languages and technologies are used. Mostly oral, HTML, CSS, JavaScript, R, Python and SQL are also practiced there."
       -
-        spent_years: 1
-        year: 2013
-        heading: "Visual Art & Design"
-        body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos quae velit voluptates? Maiores voluptas provident unde. Corporis aspernatur soluta, magni ex, iste nam quos ipsum blanditiis adipisci praesentium omnis."
+        principal: false
+        still_in_office: true
+        spent_years: 2
+        year: 2018
+        heading: "Professor @ INSEEC U."
+        body: "In 2 years, I had the opportunity to teach classes in M1 Marketing, M1 Marketing Digital, M2 Marketing Digital and M2 Big Data. The courses are very varied and mostly concern project management. Each year, I train 200 students at INSEEC on subjects such as programming, marketing, entrepreneurship and big data project management."
+      - 
+        principal: false
+        still_in_office: true
+        spent_years: 3
+        year: 2017
+        heading: "Jury and speaker @ The Hacking Project"
+        body: "After being a student at The Hacking Project during their first programming bootcamp, I was subsequently called upon to speak on many different subjects related to development in Ruby: Blockchain, mobile application, web development, scrapping... By thereafter, I became a product and technical jury for final projects and have been involved in delivering the diploma for almost a year."
       -
-        spent_years: 1
+        principal: false
+        still_in_office: false
+        spent_years: 2
+        year: 2016
+        heading: "Professor and educational adviser @ Cultura"
+        body: "Guitar teacher and management of the store's academy in Paris. During my time at Cultura, I worked on the big business project of digitalisation of music lessons by contributing to the development of online and physical tools as well as the common educational program. This has improved the quality of the courses through a hybrid learning mode that retains the best of both worlds. This solution has impacted well over 50 teachers in 20 stores with thousands of students."
+      -
+        principal: false
+        still_in_office: false
+        spent_years: 3
         year: 2013
-        heading: "Visual Art & Design"
-        body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos quae velit voluptates? Maiores voluptas provident unde. Corporis aspernatur soluta, magni ex, iste nam quos ipsum blanditiis adipisci praesentium omnis."
+        heading: "Independent music teacher"
+        body: "I started teaching as a freelance teacher while studying music and teaching. I had over a hundred students of all ages in guitar lessons, music theory, computer assisted music and band accompaniment."
   topics:
     heading: "The most important topics for your students."
     top_left:
-      heading: "Web Development"
-      body: "This creative template design provide ideal and variety of design services and solutions for website."
+      heading: "Web development"
+      body: "More than a necessity, learning to program is above all the best way to develop your creativity and your computational thinking."
     top_right:
       heading: "Entrepreneurship"
-      body: "This creative template design provide ideal and variety of design services and solutions for website."
+      body: "Not everyone can become an entrepreneur. However, I am convinced that everyone can be more enterprising every day."
     bottom_left:
-      heading: "Marketing"
-      body: "This creative template design provide ideal and variety of design services and solutions for website."
+      heading: "Digital Marketing"
+      body: "Marketing is not a business skill like any other. When used well, marketing can distort reality and get more with less."
     bottom_right:
       heading: "Artificial Intelligence"
-      body: "This creative template design provide ideal and variety of design services and solutions for website."
+      body: "Considered the greatest challenge of the 21st century, it is more essential than ever to have the right keys to understanding this technology."
   courses:
-    heading: "Hire me for one of this course."
+    heading: "My flagship courses and conferences."
+    course: "%{type} of"
     n_hours:
       one: "1 hour"
       other: "%{count} hours"
+    n_publics:
+      one: "Public"
+      other: "Publics"
+    cta: "Let's work together"
   testimonials:
-    heading: "From my students mouth."
-    anonymous: "Theses testimonials are from anonymous studies made about my students about how they appreciate my courses."
-    cta: "Whatch the whole etude here."
+    heading: "From my students."
+    anonymous: "These testimonials come from an anonymous study done with my students at the end of the year on how they appreciate my lessons."
+    cta: "See the full results of the study."
     texts:
-      - "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,deserunt mollit anim id est laborum."
-      - "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,deserunt mollit anim id est laborum."
-      - "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,deserunt mollit anim id est laborum."
+      - "The tone was set from the first lesson: learning while making a project a reality. I loved this mode of operation which does not necessarily encourage us to have a note, but above all to have projects. Thank you for your good vibes! :)"
+      - "Awesome teacher who speaks the same language as us. Adapted pedagogy given the complexity of the subject (for those who have never experienced programming). Anthony is also very responsive when we have questions and provides us with all the tools necessary to promote dialogue within the classroom. Very good experience in Project Management with him as a teacher."
+      - "The project management course is a living course in which one can create, discover and learn. So it's a very rewarding course. Thanks to Anthony for the lessons 👏🏼👌🏼"
     previous: "Previous"
     next: "Next"
   contact:
-    heading: "Contact"
+    heading: "Let's work together."
     cta: "Contact me"
     phone: "Phone"
-    address: "Address"
     email: "Email"
+  support:
+    array:
+      words_connector: ", "
+      two_words_connector: " and "
+      last_word_connector: " or at least "
