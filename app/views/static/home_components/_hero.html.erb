@@ -1,5 +1,5 @@
 <!-- Start Banner Container -->
-<div class="padding-100px-top" style="background-color: #2c3640">
+<div class="hero padding-100px-top" style="background-color: #2c3640">
   <div class="container">
     <div class="row">
       <div class="col-md-7 col-sm-12 order-2 order-md-1 xs-padding-50px-tb">
@@ -14,16 +14,18 @@
           <p class="text-light-gray w-75 md-width-75 xs-width-100 font-size16 xs-font-size14 border-top border-bottom padding-10px-tb">
             <%= t("hero.sub_heading") %>
           </p>
-          <a class="btn white btn-lg mt-5" href="#courses">
-            <%= t("hero.cta") %>
-            <i class="fas fa-arrow-right font-size15 margin-5px-left"></i>
-          </a>
+          <div class="xs-btn-center">
+            <a class="btn white btn-lg mt-5" href="#courses">
+              <%= t("hero.cta") %>
+              <i class="fas fa-arrow-right font-size15 margin-5px-left"></i>
+            </a>
+          </div>
         </div>
         <!-- End Left Content -->
       </div>
-      <div class="col-md-5 col-sm-12 order-1 order-md-2 text-right xs-text-center xs-border-bottom xs-padding-nineteen-half-lr border-color-medium-gray">
+      <div class="col-md-5 col-sm-12 order-1 order-md-2 text-right xs-text-center xs-padding-nineteen-half-lr border-color-medium-gray">
         <!-- Start Right Image -->
-        <img src="<%= image_url "anthony.jpg" %>" alt="" style="border-top-left-radius: 15px;border-top-right-radius: 15px;">
+        <img src="<%= image_url "anthony.jpg" %>" alt="" class="portrait"style="">
         <!-- End Right Image -->
       </div>
     </div>

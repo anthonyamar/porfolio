@@ -1,7 +1,19 @@
-.btn-lg {
-  font-size: 24px;
-  padding: 17px 36px;
-  border-radius: 60px;
+@media screen and (min-width: 960px) {
+  // DESKTOP
+  .btn-lg {
+    font-size: 24px;
+    padding: 17px 36px;
+    border-radius: 60px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  // MOBILE
+  .btn-lg {
+    font-size: 18px;
+    padding: 16px 30px;
+    border-radius: 60px;
+  }
 }
 
 .badge-pill-accent {
