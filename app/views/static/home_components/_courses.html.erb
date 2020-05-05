@@ -14,7 +14,7 @@
       <div class="col-lg-6 my-4 sm-margin-20px-bottom course-card">
         <div class="item text-center">
           <div class="post-img">
-            <%= image_tag(course.image.image_url) %>
+            <%= image_tag(course.image.image_url, alt: course.image.description) %>
           </div>
           <div class="content">
             <h3 class="margin-15px-bottom">
