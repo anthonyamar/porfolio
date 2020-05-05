@@ -10,59 +10,89 @@ fr:
     hello: "Bonjour, je suis"
     heading: "Anthony Amar."
     sub_heading: "Votre nouveau professeur & conférencier."
-    cta: "Contactez-moi"
+    cta: "Travaillons ensemble"
   about:
     heading: "Ramener la curiosité et la créativité dans l'éducation."
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos quae velit voluptates? Maiores voluptas provident unde. Corporis aspernatur soluta, magni ex, iste nam quos ipsum blanditiis adipisci praesentium omnis."
+    body: "Dans notre monde d'aujourd'hui, les compétences seules ne suffisent plus. Je m'éfforce de transmettre un état d'esprit à toute épreuve permettant à mes élèves de retrouver le goût de la curiosité et de la créativité. Obtenir une véritable capacité d'adaptation et d'émancipation, telle est selon moi, la clé pour une vie professionnelle pleine de succès."
   resume:
-    heading_html: "Parcours atypique.<br>+6 ans d'expérience d'enseignement."
-    cta: "Voir mon C.V. complet."
+    heading_html: "Parcours atypique.<br>+%{years} ans d'expérience d'enseignement."
+    cta: "Travaillons ensemble"
+    principal: "Activité principale"
+    still_in_office: "Toujours en poste"
+    clients_heading: "Ils m'ont reçu pour une conférence."
     n_years:
       one: "1 an"
       other: "%{count} ans"
     timeframes:
       -
-        spent_years: 1
-        year: 2013
-        heading: "Visual Art & Design"
-        body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos quae velit voluptates? Maiores voluptas provident unde. Corporis aspernatur soluta, magni ex, iste nam quos ipsum blanditiis adipisci praesentium omnis."
+        principal: true
+        still_in_office: true
+        spent_years: 4
+        year: 2016
+        heading: "Co-fondateur & CEO @ Studiomatic"
+        body: "Avec Studiomatic, nous créons les studios de musique du futur. Studio de répétition en libre service, réservable et accessible 24/7 grâce à son smartphone. Nous travaillons avec les leaders de la répétition en France tout en développant notre propre réseau de studios autonomes. J'ai étudié le  développement web, l'internet des objets, les data-sciences et l'intelligence artificielle dans le but de développer la technologie derrière Studiomatic moi-même."
       -
+        principal: false
+        still_in_office: true
         spent_years: 1
-        year: 2013
-        heading: "Visual Art & Design"
-        body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos quae velit voluptates? Maiores voluptas provident unde. Corporis aspernatur soluta, magni ex, iste nam quos ipsum blanditiis adipisci praesentium omnis."
+        year: 2020
+        heading: "Professeur intervenant @ Supdeweb"
+        body: "Cours aux M2 E-Commerce : Panorama des langages de programmation. Destiné à des non-tech, ce cours permet aux acteurs du numérique de mieux comprendre comment le web fonctionne, quels sont les langages de programmations et les technologies utilisés. Majoritairement oral, on y pratique également HTML, CSS, JavaScript, R, Python et SQL."
       -
-        spent_years: 1
-        year: 2013
-        heading: "Visual Art & Design"
-        body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos quae velit voluptates? Maiores voluptas provident unde. Corporis aspernatur soluta, magni ex, iste nam quos ipsum blanditiis adipisci praesentium omnis."
+        principal: false
+        still_in_office: true
+        spent_years: 2
+        year: 2018
+        heading: "Professeur intervenant @ INSEEC U."
+        body: "En 2 ans, j'ai eu l'occasion de donner cours aux classes de M1 Marketing, M1 Marketing Digital, M2 Marketing Digital et M2 Big Data. Les cours sont très variés et concernent en grande majorité le management de projet. Chaque année, je forme à l'INSEEC 200 étudiants sur des sujets tels que la programmation, le marketing, l'entrepreneuriat et la gestion de projet big data."
+      - 
+        principal: false
+        still_in_office: true
+        spent_years: 3
+        year: 2017
+        heading: "Jury et intervenant @ The Hacking Project"
+        body: "Après avoir été étudiant chez The Hacking Project lors de leur premier bootcamp de programmation, j'ai été amené par la suite à intervenir sur beaucoup de sujets différents liés au développement en Ruby : Blockchain, application mobile, développement web, scrapping... Par la suite, je suis devenu jury produit et technique des projets finaux et interviens à la délivrance du diplôme depuis bientôt 1 an."
       -
-        spent_years: 1
+        principal: false
+        still_in_office: false
+        spent_years: 2
+        year: 2016
+        heading: "Professeur et référent pédagogique @ Cultura"
+        body: "Professeur de guitare et gestion de l'académie du magasin à Paris. Lors de mon passage chez Cultura, j'ai travaillé sur le grand projet d’entreprise de digitalisation des cours de musique en contribuant à l’élaboration des outils en ligne et physique ainsi que du programme pédagogique commun. Cela a permis d’améliorer la qualité des cours grâce à un mode d’apprentissage hybride conservant le meilleur des deux mondes. Cette solution a impacté en bien + d’une 50aine de professeurs répartis dans 20 magasins totalisant des milliers d’élèves."
+      -
+        principal: false
+        still_in_office: false
+        spent_years: 3
         year: 2013
-        heading: "Visual Art & Design"
-        body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quos quae velit voluptates? Maiores voluptas provident unde. Corporis aspernatur soluta, magni ex, iste nam quos ipsum blanditiis adipisci praesentium omnis."
+        heading: "Professeur de musique indépendant"
+        body: "J'ai commencé à donner des cours en tant que professeur indépendant pendant mes études de musique et de pédagogie. J'ai eu plus d'une centaine d'élèves de tout âge en cours de guitare, de théorie musicale, de musique assitée par ordinateur ainsi que d'accompagnement de groupe."
   topics:
     heading: "Les sujets les plus importants pour vos élèves."
     top_left:
       heading: "Développement web"
-      body: "This creative template design provide ideal and variety of design services and solutions for website."
+      body: "Plus qu'une nécessité, l'apprentissage de la programmation est surtout le meilleur moyen de développer sa créativité et sa pensée computationnelle."
     top_right:
       heading: "Entrepreneunariat"
-      body: "This creative template design provide ideal and variety of design services and solutions for website."
+      body: "Tout le monde ne peut pas devenir entrepreneur. Je suis cependant convaincu que tout le monde peut être plus entreprenant chaque jour."
     bottom_left:
-      heading: "Marketing"
-      body: "This creative template design provide ideal and variety of design services and solutions for website."
+      heading: "Marketing Digital"
+      body: "Le marketing n'est pas une compétence métier comme une autre. Bien utilisé, le marketing permet de distordre la réalité et d'obtenir plus avec moins."
     bottom_right:
       heading: "Intelligence Artificielle"
-      body: "This creative template design provide ideal and variety of design services and solutions for website."
+      body: "Considéré comme le plus grand défi du XXIème siècle, il est plus que jamais indispensable d'avoir les bonnes clés de compréhensions de cette technologie."
   courses:
     heading: "Mes cours et conférences phares."
+    course: "%{type} de"
     n_hours:
       one: "1 heure"
       other: "%{count} heures"
+    n_publics:
+      one: "Public"
+      other: "Publics"
+    cta: "Travaillons ensemble"
   testimonials:
     heading: "De la bouche de mes étudiants."
-    anonymous: "Ces témoignages proviennent d'une études anonyme faite auprès de mes étudiants en fin d'année sur la façon dont ils apprécient mes cours."
+    anonymous: "Ces témoignages proviennent d'une étude anonyme faite auprès de mes étudiants en fin d'année sur la façon dont ils apprécient mes cours."
     cta: "Voir les résultats complets de l'étude."
     texts:
       - "Le ton a été donné dès le premier cours : apprendre tout en concrétisant un projet. J'ai adoré ce mode de fonctionnement qui ne nous incite pas forcément à avoir une note, mais surtout à avoir des projets. Merci à toi pour tes good vibes ! :)"
@@ -72,7 +102,12 @@ fr:
     next: "Suivant"
   contact:
     heading: "Travaillons ensemble."
-    cta: "Contactez moi"
+    cta: "Contactez-moi"
     phone: "Téléphone"
     address: "Adresse"
     email: "Email"
+  support:
+    array:
+      words_connector: ", "
+      two_words_connector: " et "
+      last_word_connector: " ou au moins "

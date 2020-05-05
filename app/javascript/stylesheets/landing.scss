@@ -1,3 +1,9 @@
+.header {
+  .navbar-collapse.show ul {
+    border-radius: 5px;
+  }
+}
+
 .carousel-indicators {
   bottom: -50px;
   margin-bottom: 50px;
@@ -13,6 +19,33 @@
   opacity: 1 !important;
 }
 
+.resume {
+  
+  .clients {
+    text-align: center;
+    
+    h3.section-title {
+      margin: 4.5rem 0;
+    }
+    
+    img {
+      width: 60%;
+    }
+    
+    .paris-rb img {
+      margin-top: -10px;
+    }
+    
+    .microsoft img {
+      margin-top: 33px;
+    }
+    
+    .futur-is-art img {
+      width: 48% !important;
+    }
+  }
+}
+
 .course-card {
 
   .item {
@@ -21,6 +54,11 @@
 
   .post-img {
     border-radius: 15px 15px 0 0;
+    
+    &:hover img {
+      -webkit-filter: none !important;
+      filter: none !important;
+    }
   }
 
   @media screen and (min-width: 960px) {
@@ -44,7 +82,7 @@
 }
 
 .testimonials {
-  
+
   @media screen and (min-width: 960px) {
     // DESKTOP
     .report {
@@ -61,10 +99,7 @@
 }
 
 .contact {
-
-  .btn-lg {
-    font-size: 24px;
-    padding: 17px 36px;
-    border-radius: 60px;
+  .fa-linkedin:hover {
+    color: #0077b5;
   }
 }

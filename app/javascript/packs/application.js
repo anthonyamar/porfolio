@@ -4,6 +4,7 @@
 // that code so it'll be compiled.
 
 require("@rails/ujs").start()
+require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
@@ -23,6 +24,6 @@ import 'bootstrap'
 import "@fortawesome/fontawesome-free";
 import '../stylesheets/application.scss';
 
-document.addEventListener("DOMContentLoaded", function(event) { 
+document.addEventListener("turbolinks:load", () => {
   $('[data-toggle="tooltip"]').tooltip()
-});
+})

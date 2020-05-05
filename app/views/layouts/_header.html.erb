@@ -1,16 +1,15 @@
 <header class="header" data-scroll-index="0">
-
   <!-- Start Navbar -->
   <nav class="navbar navbar-expand-lg border-none bg-transparent">
     <div class="container sm-padding-10px-tb sm-padding-15px-lr">
 
       <!-- start logo -->
-      <a class="logo" href="javascript:void(0);" data-scroll-nav="0">
-        <img src="<%= image_url "logo-white.png" %>" alt="Ashton - One Page Portfolio" title="Ashton - One Page Portfolio">
-      </a>
+      <%= link_to root_path, class: "logo" do %>
+        <img src="<%= image_url "logo-white.png" %>" alt="Logo pour le site de Anthony Amar - professeur et conférencier">
+      <% end %>
       <!-- end Logo -->
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button id="toggler" class="navbar-toggler" type="button">
         <span class="icon-bar"><i class="fas fa-bars"></i></span>
       </button>
 
@@ -62,10 +61,15 @@
       <!-- end navbar links -->
 
     </div>
-
-    <a href="javascript:void(0)" class="sidemenu_btn sm-display-none" id="sidebar_toggle">
-      <span></span> <span></span> <span></span>
-    </a>
   </nav>
 </header>
 <!-- End Header -->
+
+<script>
+  var toggler = document.getElementById("toggler");
+  var navbar = document.getElementById("navbarContent");
+  
+  toggler.onclick = function(){
+    navbar.classList.toggle("show");
+  };
+</script>

@@ -1,10 +1,11 @@
 <!-- Start Timeline Section-->
-<section class="bg-light-gray" data-scroll-index="2">
+<div id="experience"></div>
+<section class="bg-light-gray resume" data-scroll-index="2">
   <div class="container">
     <div class="row">
       <div class="col-12 center-col margin-70px-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center">
         <h3 class="font-weight-700 font-size32 md-font-size27 sm-font-size24 xs-font-size20 section-title">
-          <%= t("resume.heading_html") %>
+          <%= t("resume.heading_html", years: DateTime.current.year - 2013) %>
         </h3>
       </div>
     </div>
@@ -29,6 +30,18 @@
               <h5 class="title">
                 <%= timeframe[:heading] %>
               </h5>
+              <div class="badges mb-3">
+                <% if timeframe[:principal] %>
+                  <span class="badge badge-pill-info">
+                    <%= t("resume.principal") %>
+                  </span> 
+                <% end %>
+                <% if timeframe[:still_in_office] %>
+                  <span class="badge badge-pill-info">
+                    <%= t("resume.still_in_office") %>
+                  </span> 
+                <% end %>
+              </div>
               <p class="description">
                 <%= timeframe[:body] %>
               </p>
@@ -37,14 +50,31 @@
           <!-- end experience section-->
           <% end %>
         </div>
-        <div class="d-flex justify-content-center mt-5">
-          <a class="btn white mt-3" href="javascript:void(0);">
-            <i class="fas fa-arrow-alt-circle-down font-size16"></i>
-            <span class="alt-font margin-5px-left">
-              <%= t("resume.cta") %>
-            </span>
-          </a>
+      </div>
+      <div class="clients">
+        <h3 class="font-weight-700 font-size32 md-font-size27 sm-font-size24 xs-font-size20 section-title">
+          <%= t("resume.clients_heading") %>
+        </h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 paris-rb">
+              <img src="<%= image_url('clients/parisrb.png') %>" alt="">
+            </div>
+            <div class="col-lg-4 microsoft">
+              <img src="<%= image_url('clients/Microsoft.png') %>" alt="">
+            </div>
+            <div class="col-lg-4 futur-is-art">
+              <img src="<%= image_url('clients/futurisart.png') %>" alt="">
+            </div>
+          </div>
         </div>
+      </div>
+      
+      <div class="d-flex justify-content-center mt-5 mx-auto">
+        <a class="btn white mt-5 btn-lg" href="#contact">
+          <%= t("resume.cta") %>
+          <i class="fas fa-arrow-right font-size15 margin-5px-left"></i>
+        </a>
       </div>
     </div>
   </div>

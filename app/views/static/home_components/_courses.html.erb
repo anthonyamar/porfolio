@@ -1,4 +1,5 @@
 <!-- Start Blog Section -->
+<div id="courses"></div>
 <section class="blog" data-scroll-index="5" style="background-color: #2c3640">
   <div class="container">
     <div class="row">
@@ -10,38 +11,38 @@
     </div>
     <div class="row">
       <% @courses.each do |course| %>
-        <div class="col-lg-6 my-4 sm-margin-20px-bottom course-card">
-          <div class="item text-center">
-            <div class="post-img">
-              <%= image_tag(course.image.image_url) %>
+      <div class="col-lg-6 my-4 sm-margin-20px-bottom course-card">
+        <div class="item text-center">
+          <div class="post-img">
+            <%= image_tag(course.image.image_url) %>
+          </div>
+          <div class="content">
+            <h3 class="margin-15px-bottom">
+              <%= course.title %>
+            </h3>
+            <div class="tag alt-font font-weight-300">
+              <%= t("courses.type", type: course.type) %> de
+              <span class="font-size12">
+                <%= t("courses.n_hours", count: course.duration) %> <%= course.type_availability.downcase %><br>
+                <%= t("courses.n_publics", count: course.publics.size) %> : <%= course.publics.to_sentence %>
+              </span>
             </div>
-            <div class="content">
-              <h3 class="margin-15px-bottom">
-                <a href="single-post.html">
-                  <%= course.title %>
-                </a>
-              </h3>
-              <div class="tag alt-font font-weight-300">
-                <a href="blog.html">
-                  <%= course.topics.to_sentence %>  
-                  <span class="font-size12">
-                    <%= course.publics.to_sentence %>
-                  </span>
-                </a>
-              </div>
-              <div class="tag alt-font font-weight-300">
-                <a href="blog.html">
-                  <%= course.type %> de
-                  <span class="font-size12">
-                    <%= t("courses.n_hours", count: course.duration) %> <%= course.type_availability.downcase %>
-                  </span>
-                </a>
-              </div>
-              <p><%= course.description %></p>
+            <p><%= course.description %></p>
+            <div>
+              <% course.topics.each do |topic| %>
+                <span class="badge badge-pill-info"><%= topic %></span>
+              <% end %>
             </div>
           </div>
         </div>
+      </div>
       <% end %>
+      <div class="report text-center mx-auto mt-5">
+        <a class="btn white mt-3 btn-lg" href="#contact">
+          <%= t("courses.cta") %>
+          <i class="fas fa-arrow-right font-size15 margin-5px-left"></i>
+        </a>
+      </div>
     </div>
   </div>
 </section>
